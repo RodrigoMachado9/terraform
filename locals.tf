@@ -9,7 +9,7 @@ resource "aws_vpc" "my_vpc" {
   tags = {
     Name = "${local.vpc_name}"
     Environment = "${terraform.workspace}"
-    Location    = "India"
+    Location    = "Brazil"
   }
 }
 
