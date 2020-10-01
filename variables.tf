@@ -3,3 +3,9 @@ variable "vpc_cidr" {
   type = "string"
   default = "10.20.0.0/16"
 }
+
+variable "region" {
+  description = "Choose region for your stack"
+  type        = "string"
+  default     = "us-west-2"
+}
